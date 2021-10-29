@@ -17,7 +17,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.albertlarsan.al68_tweaks.AL68Tweaks"
+      "net.albertlarsan.al68_tweaks.CommonEntryPoint"
+    ],
+    "preLaunch" : [
+      "net.albertlarsan.al68_tweaks.PreLaunchEntryPoint"
     ]
   },
   "depends": {
@@ -26,5 +29,7 @@
     "minecraft": "^1.17.1",
     "java": ">=16"
   },
-  "suggests": {}
+  "suggests": {
+    "modmenu": "^2.0.14"
+  }
 }
