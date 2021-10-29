@@ -6,7 +6,7 @@ public class SharedConstants {
     public static final String FRIENDLY_NAME;
 
     static {
-        VERSION = "0.1.0";
+        VERSION = "0.1.1";
         NAMESPACE = "al68_tweaks";
         FRIENDLY_NAME = "AlbertLarsan's Tweaks";
     }
