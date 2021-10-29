@@ -1,4 +1,6 @@
-# Fabric Example Mod
+# Random Tweaks
+
+This mod contains multiple random improvements to the bare game.
 
 ## Setup
 
@@ -6,4 +8,4 @@ For setup instructions please see the [fabric wiki page](https://fabricmc.net/wi
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is under the MIT license.
