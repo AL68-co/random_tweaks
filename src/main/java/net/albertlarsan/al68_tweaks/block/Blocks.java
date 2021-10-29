@@ -1,6 +1,6 @@
 package net.albertlarsan.al68_tweaks.block;
 
-import net.albertlarsan.al68_tweaks.CommonConstants;
+import net.albertlarsan.al68_tweaks.SharedConstants;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 
 import net.minecraft.block.Block;
@@ -17,7 +17,7 @@ public class Blocks {
     public static final Block CHARCOAL_BLOCK;
 
     private static Block register(String id, Block block) {
-        return (Block) Registry.register(Registry.BLOCK, new Identifier(CommonConstants.NAMESPACE, id), block);
+        return (Block) Registry.register(Registry.BLOCK, new Identifier(SharedConstants.NAMESPACE, id), block);
     }
 
     static {

@@ -6,12 +6,12 @@ import org.apache.logging.log4j.Logger;
 import net.albertlarsan.al68_tweaks.item.Items;
 import net.fabricmc.api.ModInitializer;
 
-public class AL68Tweaks implements ModInitializer {
+public class CommonEntryPoint implements ModInitializer {
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LogManager.getLogger(CommonConstants.FRIENDLY_NAME);
+	private static final Logger LOGGER = LogManager.getLogger(SharedConstants.FRIENDLY_NAME);
 
 	@Override
 	public void onInitialize() {
@@ -20,7 +20,6 @@ public class AL68Tweaks implements ModInitializer {
 		// Proceed with mild caution.
 		LOGGER.info("Started Initializing");
 		LOGGER.info(Items.ITEMS_ITEM_GROUP);
-
 		LOGGER.info("Finished Initializing");
 
 	}

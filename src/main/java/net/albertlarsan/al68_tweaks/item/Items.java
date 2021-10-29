@@ -2,7 +2,7 @@ package net.albertlarsan.al68_tweaks.item;
 
 import java.util.Optional;
 
-import net.albertlarsan.al68_tweaks.CommonConstants;
+import net.albertlarsan.al68_tweaks.SharedConstants;
 import net.albertlarsan.al68_tweaks.block.Blocks;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -53,7 +53,7 @@ public class Items {
     }
 
     private static Item register(String id, Item item) {
-        return register(new Identifier(CommonConstants.NAMESPACE, id), item);
+        return register(new Identifier(SharedConstants.NAMESPACE, id), item);
     }
 
     private static Item register(Identifier id, Item item) {
@@ -66,9 +66,9 @@ public class Items {
 
     static {
 
-        ITEMS_ITEM_GROUP = FabricItemGroupBuilder.create(new Identifier(CommonConstants.NAMESPACE, "items"))
+        ITEMS_ITEM_GROUP = FabricItemGroupBuilder.create(new Identifier(SharedConstants.NAMESPACE, "items"))
                 .icon(() -> new ItemStack(net.minecraft.item.Items.BOWL)).build();
-        BLOCKS_ITEM_GROUP = FabricItemGroupBuilder.create(new Identifier(CommonConstants.NAMESPACE, "blocks"))
+        BLOCKS_ITEM_GROUP = FabricItemGroupBuilder.create(new Identifier(SharedConstants.NAMESPACE, "blocks"))
                 .icon(() -> new ItemStack(net.minecraft.item.Items.COBBLESTONE)).build();
 
         CHARCOAL_BLOCK = register_fuel(Blocks.CHARCOAL_BLOCK, Optional.of(BLOCKS_ITEM_GROUP), 16000);
