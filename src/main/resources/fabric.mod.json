@@ -1,38 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "al68_tweaks",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "AlbertLarsan68's Tweaks",
+  "description": "Random tweaks for a popular block game",
   "authors": [
-    "Me!"
+    "AlbertLarsan68"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/random_tweaks",
+    "sources": "https://github.com/AL68-co/random_tweaks",
+    "issues": "https://github.com/AL68-co/random_tweaks/issues"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "MIT",
+  "icon": "assets/al68_tweaks/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.albertlarsan.al68_tweaks.AL68Tweaks"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": "^0.11.3",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": "^1.17.1",
     "java": ">=16"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }
