@@ -2,7 +2,7 @@
 
 This mod contains multiple random improvements to the bare game.
 
-The current version of this mod is `0.1.0`.
+The current version of this mod is `0.1.1`.
 
 ## Setup
 
