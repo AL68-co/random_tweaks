@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "net.albertlarsan.al68_tweaks.mixin",
+    "compatibilityLevel": "JAVA_16",
+    "mixins": [
+        "ServerPlayerEntityMixin"
+    ],
+    "client": [],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

@@ -19,7 +19,7 @@
     "main": [
       "net.albertlarsan.al68_tweaks.CommonEntryPoint"
     ],
-    "preLaunch" : [
+    "preLaunch": [
       "net.albertlarsan.al68_tweaks.PreLaunchEntryPoint"
     ]
   },
@@ -31,5 +31,8 @@
   },
   "suggests": {
     "modmenu": "^2.0.14"
-  }
+  },
+  "mixins": [
+    "al68_tweaks.mixins.json"
+  ]
 }
